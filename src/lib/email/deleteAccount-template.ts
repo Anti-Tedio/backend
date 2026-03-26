@@ -20,7 +20,7 @@ export function buildAccountDeletionEmail(username: string, magicLink: string, c
           <tr>
             <td style="background:linear-gradient(135deg, #1e116a 0%, #4f39f6 100%);padding:40px 32px;text-align:center;">
               <div style="display:inline-block;margin-bottom:16px;">
-                <img src="https://anti-tedio.com/public/logo.png" style="width:100px;" alt="Anti-Tédio" />
+                <img src="https://antitedio.com.br/public/logo.png" style="width:100px;" alt="Anti-Tédio" />
               </div>
               <p style="margin:0;line-height:1;">
                 <span style="color:#ffffff;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;opacity:0.8;display:block;margin-bottom:6px;">

@@ -23,7 +23,7 @@ export function buildPasswordResetEmail(username: string, magicLink: string): st
             <td
               style="background:linear-gradient(135deg,#211475 0%,#4f39f6 100%);padding:40px 32px;text-align:center;">
               <div style="display:inline-block;margin-bottom:16px;">
-                <img src="https://anti-tedio.com/public/logo.png" style="width:100px;" alt="Anti-Tédio" />
+                <img src="https://antitedio.com.br/public/logo.png" style="width:100px;" alt="Anti-Tédio" />
               </div>
               <p style="margin:0;line-height:1;">
                 <span
