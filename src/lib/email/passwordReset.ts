@@ -125,7 +125,7 @@ export function buildPasswordResetEmail(username: string, magicLink: string): st
                 Enviado com ❤️ pela equipe do Anti-Tédio.
               </p>
               <p style="margin:0;color:#c4c4c4;font-size:11px;text-align:center;">
-                © ${year} Anti-Tédio · Todos os direitos reservados
+                © ${year} Anti Tédio · Todos os direitos reservados
               </p>
             </td>
           </tr>

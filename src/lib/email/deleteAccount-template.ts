@@ -150,7 +150,7 @@ export function buildAccountDeletionEmail(username: string, magicLink: string, c
                 Criado para acabar com o tédio de uma vez por todas.
               </p>
               <p style="margin:0;color:#c4c4c4;font-size:11px;text-align:center;">
-                © ${year} Anti-Tédio · Todos os direitos reservados
+                © ${year} Anti Tédio · Todos os direitos reservados
               </p>
             </td>
           </tr>
