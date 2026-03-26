@@ -285,7 +285,7 @@ export const authController = {
             // secure: true
         })
 
-        return c.redirect(`${Bun.env.FRONTEND_URL}/select-person`)
+        return c.redirect(`${Bun.env.FRONTEND_URL}/persons`)
     },
 
     facebook: async (c: Context) => {
@@ -338,6 +338,6 @@ export const authController = {
             // secure: true
         })
 
-        return c.redirect(`${Bun.env.FRONTEND_URL}/select-person`)
+        return c.redirect(`${Bun.env.FRONTEND_URL}/persons`)
     }
 }

@@ -41,15 +41,18 @@ authRoutes.use(
     googleAuth({
         client_id: Bun.env.GOOGLE_CLIENT_ID,
         client_secret: Bun.env.GOOGLE_CLIENT_SECRET,
+        redirect_uri: `${Bun.env.BACKEND_URL}/auth/google`,
         scope: ['openid', 'email', 'profile'],
     }),
     authController.google
 )
+
 authRoutes.use(
     '/facebook',
     facebookAuth({
         client_id: Bun.env.FACEBOOK_CLIENT_ID,
         client_secret: Bun.env.FACEBOOK_CLIENT_SECRET,
+        redirect_uri: `${Bun.env.BACKEND_URL}/auth/facebook`,
         scope: ['email', 'public_profile'],
         fields: [
             'email',
@@ -57,7 +60,6 @@ authRoutes.use(
             'name',
             'picture',
         ],
-
     }),
     authController.facebook
 )
