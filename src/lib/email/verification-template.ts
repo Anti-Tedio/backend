@@ -20,25 +20,19 @@ export function buildVerificationEmail(code: string, username: string): string {
           style="background:#ffffff;border-radius:24px;overflow:hidden;box-shadow:0 10px 25px rgba(107,58,245,0.1);">
 
           <tr>
-            <td
-              style="background:linear-gradient(135deg,#211475 0%,#4f39f6 100%);padding:40px 32px;text-align:center;">
+            <td style="padding:40px 32px;text-align:center;">
               <div style="display:inline-block;margin-bottom:16px;">
-                <img src="https://antitedio.com.br/public/logo.png" style="width:100px;" alt="Anti-Tédio" />
+                <img src="https://anti-tedio.com/public/logo.png" style="width:100px;" alt="Anti-Tédio" />
               </div>
               <p style="margin:0;line-height:1;">
-                <span
-                  style="color:#ffffff;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;opacity:0.8;display:block;margin-bottom:6px;">
-                  Bem-vindo ao
+                <span style="color:#000000;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;opacity:0.8;display:block;margin-bottom:6px;">
+                  Até logo,
                 </span>
-                <span style="color:#ffffff;font-size:28px;font-weight:900;letter-spacing:-0.5px;">
+                <span style="color:#000000;font-size:28px;font-weight:900;letter-spacing:-0.5px;">
                   Anti-Tédio
                 </span>
               </p>
             </td>
-          </tr>
-
-          <tr>
-            <td style="height:6px;background:linear-gradient(90deg,#ffd166,#ff6b6b,#5c20ff,#ac85ff);"></td>
           </tr>
 
           <tr>
@@ -61,7 +55,7 @@ export function buildVerificationEmail(code: string, username: string): string {
               <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:32px;">
                 <tr>
                   <td align="center"
-                    style="background:linear-gradient(135deg,#f8faff,#f0eeff);border-radius:16px;padding:32px 24px;border:2px dashed #c4b0ff;">
+                    style="background:#f8faff;border-radius:16px;padding:32px 24px;border:2px dashed #c4b0ff;">
                     <p
                       style="margin:0 0 12px;color:#6b3af5;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:2px;">
                       🔐 Seu código de verificação

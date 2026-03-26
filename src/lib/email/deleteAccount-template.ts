@@ -18,23 +18,19 @@ export function buildAccountDeletionEmail(username: string, magicLink: string, c
           style="background:#ffffff;border-radius:24px;overflow:hidden;box-shadow:0 10px 25px rgba(0,0,0,0.05);">
 
           <tr>
-            <td style="background:linear-gradient(135deg, #1e116a 0%, #4f39f6 100%);padding:40px 32px;text-align:center;">
+            <td style="padding:40px 32px;text-align:center;">
               <div style="display:inline-block;margin-bottom:16px;">
-                <img src="https://antitedio.com.br/public/logo.png" style="width:100px;" alt="Anti-Tédio" />
+                <img src="https://anti-tedio.com/public/logo.png" style="width:100px;" alt="Anti-Tédio" />
               </div>
               <p style="margin:0;line-height:1;">
-                <span style="color:#ffffff;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;opacity:0.8;display:block;margin-bottom:6px;">
+                <span style="color:#000000;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;opacity:0.8;display:block;margin-bottom:6px;">
                   Até logo,
                 </span>
-                <span style="color:#ffffff;font-size:28px;font-weight:900;letter-spacing:-0.5px;">
+                <span style="color:#000000;font-size:28px;font-weight:900;letter-spacing:-0.5px;">
                   Anti-Tédio
                 </span>
               </p>
             </td>
-          </tr>
-
-          <tr>
-            <td style="height:6px;background:linear-gradient(90deg,#ffd166,#ff6b6b,#5c20ff,#ac85ff);"></td>
           </tr>
 
           <tr>
@@ -98,7 +94,7 @@ export function buildAccountDeletionEmail(username: string, magicLink: string, c
 
               <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:32px;">
                 <tr>
-                  <td style="background:linear-gradient(135deg,#f8faff,#f0eeff);border-radius:16px;padding:20px;border:1px solid #ddd6fe;text-align:center;">
+                  <td style="background:#f8faff;border-radius:16px;padding:20px;border:1px solid #ddd6fe;text-align:center;">
                     <p style="margin:0 0 6px;color:#6b3af5;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;">
                       🗓️ Arrependeu-se?
                     </p>

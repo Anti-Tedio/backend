@@ -20,25 +20,19 @@ export function buildPasswordResetEmail(username: string, magicLink: string): st
           style="background:#ffffff;border-radius:24px;overflow:hidden;box-shadow: 0 10px 25px rgba(0,0,0,0.05);">
 
           <tr>
-            <td
-              style="background:linear-gradient(135deg,#211475 0%,#4f39f6 100%);padding:40px 32px;text-align:center;">
+            <td style="padding:40px 32px;text-align:center;">
               <div style="display:inline-block;margin-bottom:16px;">
-                <img src="https://antitedio.com.br/public/logo.png" style="width:100px;" alt="Anti-Tédio" />
+                <img src="https://anti-tedio.com/public/logo.png" style="width:100px;" alt="Anti-Tédio" />
               </div>
               <p style="margin:0;line-height:1;">
-                <span
-                  style="color:#ffffff;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;opacity:0.8;display:block;margin-bottom:6px;">
-                  Segurança da Conta
+                <span style="color:#000000;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;opacity:0.8;display:block;margin-bottom:6px;">
+                  Até logo,
                 </span>
-                <span style="color:#ffffff;font-size:28px;font-weight:900;letter-spacing:-0.5px;">
+                <span style="color:#000000;font-size:28px;font-weight:900;letter-spacing:-0.5px;">
                   Anti-Tédio
                 </span>
               </p>
             </td>
-          </tr>
-
-          <tr>
-            <td style="height:6px;background:linear-gradient(90deg,#ffd166,#ff6b6b,#5c20ff,#ac85ff);"></td>
           </tr>
 
           <tr>
@@ -70,7 +64,7 @@ export function buildPasswordResetEmail(username: string, magicLink: string): st
                     <table cellpadding="0" cellspacing="0">
                       <tr>
                         <td
-                          style="background:linear-gradient(135deg,#6b3af5,#9b6dff);border-radius:12px;text-align:center;box-shadow:0 6px 18px rgba(107,58,245,0.3);">
+                          style="background:#6b3af5;border-radius:12px;text-align:center;box-shadow:0 6px 18px rgba(107,58,245,0.3);">
                           <a href="${magicLink}"
                           style="display:inline-block;padding:16px 40px;color:#ffffff;font-size:16px;font-weight:700;text-decoration:none;letter-spacing:0.3px;"
                           >
