@@ -26,7 +26,7 @@ export function buildVerificationEmail(code: string, username: string): string {
               </div>
               <p style="margin:0;line-height:1;">
                 <span style="color:#000000;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;opacity:0.8;display:block;margin-bottom:6px;">
-                  Até logo,
+                  Bem vindo ao,
                 </span>
                 <span style="color:#000000;font-size:28px;font-weight:900;letter-spacing:-0.5px;">
                   Anti-Tédio
