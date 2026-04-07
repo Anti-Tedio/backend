@@ -82,7 +82,7 @@ export const authController = {
             maxAge: 7 * 24 * 60 * 60,
             path: '/',
             sameSite: 'Strict',
-            // secure: true
+            secure: true
         })
 
         return c.json({ ok: true, message: 'verificação feita com sucesso' }, 201)
@@ -114,7 +114,7 @@ export const authController = {
             maxAge: 7 * 24 * 60 * 60,
             path: '/',
             sameSite: 'Strict',
-            // secure: true
+            secure: true
         })
 
         return c.json({ ok: true })
@@ -281,8 +281,8 @@ export const authController = {
             httpOnly: true,
             maxAge: 7 * 24 * 60 * 60,
             path: '/',
-            sameSite: 'Lax',
-            // secure: true
+            sameSite: 'strict',
+            secure: true
         })
 
         return c.redirect(`${Bun.env.FRONTEND_URL}/persons`)
@@ -334,8 +334,8 @@ export const authController = {
             httpOnly: true,
             maxAge: 7 * 24 * 60 * 60,
             path: '/',
-            sameSite: 'Lax',
-            // secure: true
+            sameSite: 'strict',
+            secure: true
         })
 
         return c.redirect(`${Bun.env.FRONTEND_URL}/persons`)

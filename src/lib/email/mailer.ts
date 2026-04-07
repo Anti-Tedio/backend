@@ -10,6 +10,7 @@ interface SendEmailOptions {
 
 export async function sendEmail({ to, subject, html }: SendEmailOptions) {
   const { error } = await resend.emails.send({
+    // from: 'Anti-Tédio <no-reply@mail.antitedio.com.br>',
     from: 'Anti-Tédio <no-reply@mail.antitedio.com.br>',
     to,
     subject,

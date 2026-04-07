@@ -24,7 +24,7 @@ await redis.connect();
 
 app.use('*', logger());
 app.use('*', cors({
-  origin: (origin) => origin,
+  origin: ['https://antitedio.com.br','https://preview.antitedio.com.br'],
   allowMethods: ['GET', 'POST', 'PUT', 'PATCH'],
   allowHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
@@ -83,8 +83,8 @@ app.route('/product', productRoutes);
 app.route('/contact', contactRoutes)
 
 export default {
-  port: 3000,
+  port: 3001,
   fetch: app.fetch,
 };
 
-console.log(`🔥 Hono is running at http://localhost:3000`);
+console.log(`🔥 Hono is running at http://localhost:3001`);

@@ -7,6 +7,7 @@ export async function translateText(text: string, target: string) {
         const [translation] = await translate.translate(text, target)
         return translation
     } catch (error) {
+        console.error(error)
         throw new Error('Erro ao fazer tradução')
     }
 }
